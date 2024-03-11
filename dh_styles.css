@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/*
+   Diana Hernandez
+   5/6/23
+  
+   Filename: dh_styles.css
+
+*/
+
+
+/* HTML and Body styles */
+
+html { 
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+body {
+   background: rgb(237, 248, 249);
+ 
+
+	
+}
+
+/* Header Styles */
+
+header > img {
+   display: block;
+   margin: 0px;
+   width: 100%;
+}
+
+/* Navigation List Styles */
+header > nav {
+   background: rgb(44, 37, 21);
+   display: block;
+   margin: 0px;
+   height:50px;
+   width: 100%;
+}
+
+header > nav > ul {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row nowrap;
+   flex-flow: row nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-content: center;
+   align-content: center;
+   height: 50px;
+}
+
+header > nav > ul > li {
+   display: block;
+   font-size: 1.4em;
+   line-height: 50px;
+   height: 50px;
+}
+
+header > nav > ul > li > a {
+   display: block;
+   color: rgb(253, 240, 133);
+   padding: 0px 15px;   
+}
+/* P Styles */
+p > img {
+   display: block;
+   margin: 0px;
+   width: 30px;
+   height: 10px;
+}
+
+/* Article Styles */
+
+article {
+   color: rgb(81, 81, 81);
+   margin: 10px 30px;
+}
+
+article h1 {
+   font-size: 4em;
+   letter-spacing: 0em;
+   font-variant:small-caps;
+}
+
+article h2 {
+   font-size: 6em;
+   letter-spacing: 0em;
+   font-variant:small-caps;
+
+}
+article h3 {
+   font-size: 2em;
+   letter-spacing: 0em;
+   font-variant:small-caps;
+   }
+
+article p {
+   line-height: em;
+   font-size: 1.7em;
+   margin: 15px 5px;
+}
+
+article code {
+   background: rgba(51, 51, 51, 0.1);
+   display: block;
+   line-height: 3em;
+   font-size: 2em;
+   margin: 10px 0px 10px 25px;
+   padding: 5px;
+}
+
+article code var {
+   font-style: italic;
+}
+
+article li {
+   font-size: 20px;
+   display: block;
+   height: 30px;
+}
+
+
+/* Footer Styles */
+
+footer {
+   background: rgba(51, 51, 51, 0.6);
+   color: rgba(255, 255, 255, 0.8);
+   text-align: right;
+   height: 30px;
+   line-height: 30px;
+   padding-right: 15px;
+   width: 100%;
+   margin-top: 25px;
+}
+
+footer a {
+   margin: 0px 5px;
+   color: rgb(253, 240, 133);
+   text-decoration: none;
+}
+

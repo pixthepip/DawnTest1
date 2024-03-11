@@ -1,0 +1,28 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 2
+
+   Big Apple Physics Animation Styles
+   Author: 
+   Date:   
+
+   Filename: ba_animate.css
+   Diana Hernandez
+   3/31/23
+*/
+
+
+/* Transition Styles */
+    nav a{
+      background-image: url(ba_target.png) center center/ no-repeat;
+      background-size: 0%;
+      color:rgb(400, 240, 133);
+      transition: background-size 0.3s, color 0.8s;
+    }
+    nav a:hover{
+      background-size: 100%;
+      color:rgb(244, 130, 130);
+    }
+
+
